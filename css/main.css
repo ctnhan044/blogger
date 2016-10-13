@@ -188,7 +188,7 @@ h1.post-title.entry-title a:hover,h2.post-title.entry-title a:hover{color:#138be
 #sidebar-wrapper{padding:20px;width:35%;float:right;word-wrap:break-word;overflow:hidden}
 #sidebar-wrapper h2,#sidebar-wrapper h3,#sidebar-wrapper h4{position:relative;overflow:hidden;margin:0;font-size:1rem;vertical-align:middle;padding:0 0 10px 0;border-bottom:1px solid rgba(0,0,0,.1);}
 #sidebar-wrapper h2 span,#sidebar-wrapper h3 span,#sidebar-wrapper h4 span{display:inline-block;vertical-align:middle}
-#sidebar-wrapper h2:after,#sidebar-wrapper h3:after,#sidebar-wrapper h4:after{content:"";display:inline-block;position:absolute;height:15px;top:0;margin:3px 0 12px 10px;width:100%;background:url(http://4.bp.blogspot.com/-R2WTW6O9E1o/VX7dqIGT1eI/AAAAAAAACc4/pyvQDMMLX3E/s1600/repeat-bg.png)repeat;opacity:.9;}
+#sidebar-wrapper h2:after,#sidebar-wrapper h3:after,#sidebar-wrapper h4:after{content:"";display:inline-block;position:absolute;height:15px;top:0;margin:3px 0 12px 10px;width:100%;background:url(https://4.bp.blogspot.com/-R2WTW6O9E1o/VX7dqIGT1eI/AAAAAAAACc4/pyvQDMMLX3E/s1600/repeat-bg.png)repeat;opacity:.9;}
 #sidebar-wrapper .widget ul{margin:0;padding:0}
 .widget-content{margin:0;padding:10px 0;overflow:hidden}
 .sidebar,.sidebartop {line-height:1.5em;padding:0}
