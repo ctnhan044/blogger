@@ -3,15 +3,15 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* HTML5 */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{background:transparent;}table{border-collapse:collapse;border-spacing:0;}*,*:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}ins{background:#fff;}
 /* Body Layout */
-body#layout ul,#layout ul {display:none;}
-body#layout #outer-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebartop {padding:0;}
-body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0;}
-body#layout .header-wrapper {margin-top:0;}
-body#layout #header {min-height:0px;width:100%;}
-body#layout #headerdua {width:30%;float:left;}
-body#layout .sosial-atas li{display:none}
+#layout ul,#layout ul {display:none;}
+#layout #outer-wrapper, #layout .post-inner, #layout .sidebar, #layout .sidebartop {padding:0;}
+#layout #wrapper, #layout .post-inner, #layout .sidebar-inner {padding:0;}
+#layout .header-wrapper {margin-top:0;}
+#layout #header {min-height:0px;width:100%;}
+#layout #headerdua {width:30%;float:left;}
+#layout .sosial-atas li{display:none}
 #layout,#layout .widget-content,#layout .add_widget {border:none;}
-body#layout .add_widget {border:1px solid #ddd;}
+#layout .add_widget {border:1px solid #ddd;}
 #layout .add_widget a {color:#111;}
 #layout #header{min-height:0px;width:100%;margin:10px 0 0 0;}
 #layout #footer-wrapper .footer-column{width:33.33%;float:left}
@@ -133,7 +133,7 @@ html {-webkit-font-smoothing:antialiased;}
 #header .title a:hover {color:#fff;}
 #header p.description{display:none;font-size:90%;margin:5px 0 0 0;line-height:normal;}
 .header img {display:block;height:auto;}
-#headerdua {float:left;margin:0 30px 0 0;}
+#headerdua {float:left;margin:0 10px 0 0;}
 /* Arlina Main Navigation */
 #simplify-two{font-size:0;padding:0;margin:0 auto;float:left}
 #simplify-two ul.menus{height:auto;overflow:hidden;position:absolute;z-index:99;display:none}
