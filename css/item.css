@@ -20,8 +20,8 @@ h1.post-title.entry-title,h2.post-title.entry-title{color:#138be6;padding:15px;f
 .bottomshare{display:block;padding:20px;margin:auto;text-align:center}
 /* Arlina Related Post */
 #related-post {margin:0;padding:0;}
-#related-post h4{background:#fafafa;color:#111;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14);padding:10px 0;font-size:20px;margin:0 0 20px 0;padding-left:8px;line-height:1em}
-#related-post h4 span{padding:6px;display:inline-block;vertical-align:middle}
+#related-post h4,#comments h4{background:#fafafa;color:#111;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14);padding:10px 0;font-size:20px;margin:0 0 20px 0;padding-left:8px;line-height:1em}
+#related-post h4 span,#comments h4 span{padding:6px;display:inline-block;vertical-align:middle}
 .relhead {background:#fff;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:0;}
 ul#related-summary {margin:0;padding:0 15px;}
 ul#related-summary li{position:relative;float:left;list-style:none outside none;margin:0 5px 15px 5px;padding:0;overflow:hidden;height:180px;width:31.6%}
@@ -79,7 +79,7 @@ pre mark,code mark,pre code mark {background-color:#f39c12!important;color:#fff!
 /* Arlina Post Navigation */
 #blog-pager-newer-link,#blog-pager-older-link{font-size:100%}
 .blog-pager-older-link,.home-link,.blog-pager-newer-link{padding:0}
-.halaman{margin:auto;padding:0;border-bottom:1px solid rgba(0,0,0,0.08);}
+.halaman{margin:auto;padding:0;border-top:1px solid rgba(0,0,0,0.08);}
 .halaman-kanan,.halaman-kiri{color:#141924;background:0 0;width:50%;position:relative;margin:0}
 .halaman-kiri{background:#fff;width:50%;float:left;margin:0;text-align:left;padding:20px 20px 20px 30px;height:72px;border-right:1px solid rgba(0,0,0,0.08);}
 .halaman-kanan{background:#fff;width:50%;float:right;margin:0;text-align:right;padding:20px 30px 20px 20px;height:72px}
