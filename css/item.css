@@ -1,0 +1,121 @@
+/* Arlina Post Area */
+.post {overflow:hidden;}
+.post-info{background:#fff;display:block;color:#666;font-style:italic;line-height:1.6em;font-size:13px;padding:10px 15px;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14)}
+.post-info a{position:relative;color:#138be6;padding:0 10px 0 0;font-style:normal;font-weight:700;}
+.post-info a:hover{text-decoration:underline;}
+.author-info img.avatar-photo1{background:rgba(0,0,0,0.1);height:28px;width:28px;margin:0 7px 0 0;border-radius:100%;transition:all .3s;}
+.author-info img.avatar-photo1:hover {transform:rotate(360deg);}
+.post-timestamp,.author-info,.comment-info,.label-info{padding:0}
+.post-body p{margin:0}
+.post-timestamp {padding:0;}
+.post-body img {height:auto;margin-bottom:2px;opacity:1;transition:all .6s ease;}
+.post-body img:hover {opacity:0.97;}
+.post-body a.img,.post-body .separator a {margin-left:0!important;margin-right:0!important;}
+h1.post-title.entry-title,h2.post-title.entry-title{color:#138be6;padding:15px;font-size:24px;margin:0}
+.label-wrap{display:block;color:#666;padding:10px 15px;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14);overflow:hidden}
+.label-info{position:relative;margin:auto}
+.label-info a,.label-tags{float:left;display:inline-block;position:relative;font-size:10px;margin-left:8px;color:#999;text-decoration:none;text-transform:uppercase;padding:5px;border:1px solid rgba(0,0,0,0.1);border-radius:3px}
+.label-tags{color:#f39c12;border:1px solid #f1c40f;}
+.label-info a:hover{color:#000;border-color:inherit;text-decoration:none}
+.bottomshare{display:block;padding:20px;margin:auto;text-align:center}
+/* Arlina Related Post */
+#related-post {margin:0;padding:0;}
+#related-post h4{background:#fafafa;color:#111;border-bottom:1px solid rgba(0,0,0,0.14);border-top:1px solid rgba(0,0,0,0.14);padding:10px 0;font-size:20px;margin:0 0 20px 0;padding-left:8px;line-height:1em}
+#related-post h4 span{padding:6px;display:inline-block;vertical-align:middle}
+.relhead {background:#fff;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:0;}
+ul#related-summary {margin:0;padding:0 15px;}
+ul#related-summary li{position:relative;float:left;list-style:none outside none;margin:0 5px 15px 5px;padding:0;overflow:hidden;height:180px;width:31.6%}
+ul#related-summary li img{background-color:#f1f1f1;width:100%;height:auto;max-width:100%;margin:0 auto;vertical-align:middle;}
+ul#related-summary li a.relinkjdulx{color:#666;display:block;font-size:12px;font-weight:700;line-height:normal;overflow:hidden;text-align:left;padding:10px 10px 10px 0}
+ul#related-summary li a.relinkjdulx:hover{color:#000;}
+.overlayb {position:relative;max-height:140px;overflow:hidden;}
+.overlayb:before{content:"";background-color:rgba(0,0,0,0.4);position:absolute;text-align:center;top:0;left:0;right:0;bottom:0;z-index:2;opacity:0;visibility:hidden;transition:all 0.4s linear}
+.overlayb:after{content:"\f002";font-family:fontawesome;font-size:1.3rem;color:rgba(255,255,255,.8);position:absolute;top:45%;left:45%;text-align:center;z-index:2;opacity:0;visibility:hidden;transition:all 0.20s linear}
+.overlayb:hover:before,.overlayb:hover:after {opacity:1;visibility:visible;}
+/* Arlina Shortcodes */
+.button{list-style:none;text-align:center;width:95%;margin:10px;padding:2px;font-size:14px;clear:both;}
+.button ul {margin:0;padding:0}
+.post-body ul.button {list-style:none;text-align:center;margin:20px auto;padding:2px;font-size:14px;clear:both;z-index:2;}
+.button li{display:inline;margin:0 5px;padding:0;list-style:none;}
+.post-body ul.button a.demo,.post-body ul.button a.download{display:block;background:#97b28e;max-width:180px;padding:8px 12px;color:#fff;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;margin:auto;border-radius:3px;transition:all .3s}
+.post-body ul.button a.demo{background:#95a5a6;}
+.post-body ul.button a.download{background:#95a5a6;}
+.post-body ul.button a.demo:hover,.post-body ul.button a.download:hover {background:#34495e;color:#fff}
+.first-letter{float:left;color:#f77c6a;font-size:75px;line-height:60px;padding-top:4px;padding-right:8px;padding-left:3px;font-family:Georgia}
+.bagidua {-webkit-column-count:2;-moz-column-count:2;column-count:2;}
+.bagitiga {-webkit-column-count:3;-moz-column-count:3;column-count:3;}
+.bagiempat {-webkit-column-count:4;-moz-column-count:3;column-count:4;}
+.bagidua img,.bagitiga img,.bagiempat img{-webkit-backface-visibility:hidden;margin-bottom:20px;max-width:100%;}
+#wrap{margin:20px auto;text-align:center}
+.btn{background:#7fa4ed;padding:8px 12px;color:#fff;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;border-radius:4px;transition:all .3s}
+.btn:hover,.btn:active,.btn.down:hover,.btn.down:active{background:#41598B}
+.post-body a:visited.btn,.post-body a:visited.btn.down,.post-body a:link.btn,.post-body a.btn.down,.post-body a.btn:hover,.post-body a.btn:active,.post-body a.btn.down:hover,.post-body a.btn.down:active{color:#fff}
+.btn i{margin:0}
+.btn.down.anima{-webkit-animation:anim 2s ease-in infinite;animation:anim 2s ease-in infinite}
+.videoyoutube{text-align:center;margin:auto;width:100%;}.video-responsive{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;}.video-responsive iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.post-body pre{background-color:#383a4c;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;padding:0;margin:.5em auto;white-space:pre;word-wrap:break-word;overflow:auto;position:relative;width:100%;-moz-tab-size:2;-o-tab-size:2;tab-size:2;word-break:normal;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}
+.post-body pre::-webkit-scrollbar,pre::-moz-scrollbar,pre code::-webkit-scrollbar,pre code::-moz-scrollbar,code::-webkit-scrollbar,code::-moz-scrollbar {display:none;}
+.post-body pre code{display:block;background:none;border:none;color:#bdc3c7;padding:25px 20px 20px 20px;font-family:"Source Code Pro",Menlo,Consolas,Monaco,monospace;font-size:.83rem;white-space:pre;overflow:auto}
+pre mark,code mark,pre code mark {background-color:#f39c12!important;color:#fff!important;padding:2px;margin:0 2px;border-radius:2px;}
+#related-summary .news-text,#share-menu{display:none}
+.post-body pre code::selection,.post-body pre::selection{background:#bdc3c7;color:#fff;}
+/* Share button bottom */
+.share-box{height:42px;position:relative;line-height:0;margin:21px 0;padding:7px;border-bottom:2px solid #eee}
+.share-title{height:35px;color:#2C3E50;float:left;font-size:13px;font-weight:700;position:relative;line-height:35px;display:inline-block;padding:0;border-bottom:2px solid #2C3E50}
+.share-art{float:right;padding:0;padding-top:0;font-size:13px;font-weight:400;text-transform:capitalize;text-align:right}
+.share-art a{height:25px;line-height:24px;color:#fff;padding:0 8px;margin-left:4px;border-radius:2px;display:inline-block;margin-right:0}
+.share-art a:hover{color:#fff}
+.share-art .fac-art i{padding-right:2px}
+.share-art .fac-art{background:#3b5998}
+.share-art .fac-art:hover{background:rgba(49,77,145,0.7)}
+.share-art .twi-art{background:#00acee}
+.share-art .twi-art:hover{background:rgba(7,190,237,0.7)}
+.share-art .goo-art{background:#db4a39}
+.share-art .goo-art:hover{background:rgba(221,75,56,0.7)}
+.share-art .pin-art{background:#CA2127}
+.share-art .pin-art:hover{background:rgba(202,33,39,0.7)}
+.share-art .lin-art{background:#0077B5}
+.share-art .lin-art:hover{background:rgba(0,119,181,0.7)}
+/* Arlina Post Navigation */
+#blog-pager-newer-link,#blog-pager-older-link{font-size:100%}
+.blog-pager-older-link,.home-link,.blog-pager-newer-link{padding:0}
+.halaman{margin:auto;padding:0;border-bottom:1px solid rgba(0,0,0,0.08);}
+.halaman-kanan,.halaman-kiri{color:#141924;background:0 0;width:50%;position:relative;margin:0}
+.halaman-kiri{background:#fff;width:50%;float:left;margin:0;text-align:left;padding:20px 20px 20px 30px;height:72px;border-right:1px solid rgba(0,0,0,0.08);}
+.halaman-kanan{background:#fff;width:50%;float:right;margin:0;text-align:right;padding:20px 30px 20px 20px;height:72px}
+.halaman-kanan:hover,.halaman-kiri:hover{background:#fdfdfd;color:#138be6;}
+.halaman-kanan:hover a,.halaman-kiri:hover a{color:#138be6;}
+.halaman-kanan a,.halaman-kiri a{color:#111;font-size:14px;font-weight:500;line-height:1.3em;transition:initial}
+.current-pageleft,.current-pageright,.halaman-kanan a,.halaman-kiri a{font-size:14px;font-family:Roboto,Arial,sans-serif;font-weight:700;background:transparent;text-decoration:none;line-height:normal;transition:initial}
+.halaman-kanan a:hover,.halaman-kanan:hover .pager-title-left,.halaman-kiri a:hover,.halaman-kiri:hover .pager-title-left,.halaman-kiri:hover .current-pageleft,.halaman-kanan:hover .current-pageright{color:#138be6;}
+#blog-pager,.isihalaman-kanan,.isihalaman-kiri{margin:0}
+.panahkanan,.panahkiri{position:absolute;top:50%;margin-top:-8px}
+.panahkiri{left:10px}
+.panahkanan{right:10px}
+.comments-content {display:block;position:relative;margin-top:20px;}
+#HTML1{width:100%;max-width:300px}
+/* CSS Item Responsive */
+@media only screen and (max-width:960px){
+.bagidua,.bagitiga,.bagiempat{-webkit-column-count:2;-moz-column-count:2;column-count:2;}}
+@media only screen and (max-width:800px){
+#HTML1{max-width:100%;position:relative!important;top:initial!important}}
+@media only screen and (max-width:640px){
+h1.post-title.entry-title,h2.post-title.entry-title{font-size:16px;}
+#related-post h4{margin:0 0 5px;border-bottom:1px solid rgba(0,0,0,0.12)}
+ul#related-summary li{float:left;list-style:none;overflow:hidden;width:50%;padding:10px 0;height:160px;margin:0}
+ul#related-summary li a.relinkjdulx{font-size:12px;font-weight:400;padding:5px 5px 5px 4px}
+ul#related-summary li .overlaytext{float:left;display:inline-block;font-size:12px;font-weight:700;line-height:normal;overflow:hidden;padding:0}
+ul#related-summary li .overlayb{display:inline-block;float:left;height:auto;margin:0 4px}
+ul#related-summary li img{height:auto;}
+.sharesimp a.fb,.sharesimp a.gp,.sharesimp a.tw{width:100%}
+.bagidua,.bagitiga,.bagiempat{-webkit-column-count:1;-moz-column-count:1;column-count:1;}
+#searchbar form:after {right:12%;top:40%;}}
+@media screen and (max-width:603px){
+.halaman-kanan,.halaman-kiri{width:100%;padding:17px 0;height:auto;border:0;}
+.halaman-kiri{border-bottom:1px solid rgba(0,0,0,0.08)}
+.isihalaman-kiri{margin-left:40px!important}
+.isihalaman-kanan{margin-right:40px!important}
+.panahkanan,.panahkiri{margin-top:-6px}
+.avatar-container{display:none}}
+@media screen and (max-width:320px){
+.label-wrap{display:none}}
